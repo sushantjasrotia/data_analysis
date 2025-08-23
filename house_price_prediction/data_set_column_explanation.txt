@@ -1,0 +1,76 @@
+Column Explanations
+
+1. Id –
+    Just a unique number for each house (used to count or identify records).
+
+2- MSSubClass (Building Class) –
+    Tells what type of dwelling it is (e.g., 20 = 1-story single-family home, 30 = 1-story duplex, etc.). Basically the category of the house style.
+
+3- MSZoning (Zoning Classification) –
+    The general zoning for the property, like:
+
+        RL = Residential Low Density (normal single-family homes)
+
+        RM = Residential Medium Density
+
+        C (all) = Commercial
+
+        FV = Floating Village Residential
+
+        RH = Residential High Density
+
+        This affects what kind of buildings can exist in that area.
+
+4- LotArea –
+    The size of the lot (the land on which the house sits), measured in square feet. Bigger lots usually mean more expensive houses.
+
+5- LotConfig –
+    How the lot is situated. For example:
+
+        Inside lot (normal, surrounded by other houses)
+
+        Corner lot
+
+        Cul-de-sac (dead end street)
+
+        Frontage on multiple streets
+
+6- BldgType –
+    The type of building:
+
+        1Fam = Single-family detached house
+
+        2fmCon = Two-family conversion
+
+        Duplex = Two-family home
+
+        Twnhs = Townhouse
+
+        TwnhsE = Townhouse end unit
+
+7- OverallCond (Overall Condition) –
+    A rating (1–10) of the house’s overall condition (not quality, but condition).
+
+        1 = Very Poor
+
+        5 = Average
+
+        10 = Excellent
+
+8- YearBuilt –
+    The year the house was originally constructed.
+
+9- YearRemodAdd –
+    The year the house was remodeled or had additions. If there were no remodels, this will be the same as YearBuilt.
+
+10- Exterior1st –
+     The material covering the outside of the house (like siding, brick, wood, stucco, etc.).
+
+11- BsmtFinSF2 –
+     The finished square footage of the second type of basement (sometimes basements are split into different sections). If the house doesn’t have that, it’s usually 0.
+
+12- TotalBsmtSF –
+     The total size of the basement (finished + unfinished), in square feet.
+
+13- SalePrice –
+      The price the house was sold for (this is the target variable in prediction tasks).
