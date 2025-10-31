@@ -6,6 +6,8 @@ It demonstrates data preprocessing, interactive visualizations, and trend analys
 
 Through this project, users can visualize infection rates, deaths, recoveries, and testing data across different countries and continents using interactive charts and maps.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Features
 
 📊 Interactive Charts – Dynamic bar, scatter, and bubble charts built with Plotly.
@@ -20,12 +22,16 @@ Through this project, users can visualize infection rates, deaths, recoveries, a
 
 🎨 Custom Color Themes – Enhanced data readability with color-coded plots.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🧰 Tech Stack
 Component	Technology
 Programming Language	Python
 Libraries Used	Pandas, Plotly, Matplotlib
 Visualization Mode	Interactive (browser rendering)
 Data Format	CSV (covid.csv, covid_grouped.csv)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧩 How It Works
 
@@ -46,6 +52,7 @@ Line charts showing trend over time
 
 Animated choropleth map for global spread visualization
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ▶️ How to Run
 
@@ -63,6 +70,8 @@ covid_grouped.csv
 python main.py
 
 4. The visualizations will automatically open in your web browser (Plotly’s default renderer).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This project is open-source and available under the MIT License
 .
